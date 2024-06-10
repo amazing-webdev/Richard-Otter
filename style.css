@@ -1,0 +1,111 @@
+body {
+    background-color: cad2c5;
+    color: black;
+
+
+    font-weight: normal;
+
+    line-height: 1.6em;
+    margin: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container {
+    min-width: 100%;
+
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#main-header {
+    background-color: #2F3E46;
+    color: white;
+    position: relative;
+
+}
+
+#navbar {}
+
+#navbar ul {
+
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar li {}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#main-title {
+    padding-right: 70%;
+}
+
+.blog-otter-pic {
+    float: left;
+    margin-right: 20px;
+}
+
+#sidebar {
+
+    background-color: #52796f;
+    height: 106.8%;
+    min-width: 15%;
+    /* width: 15%; */
+    float: left;
+    list-style-type: none;
+    /* text-align: center; */
+
+}
+
+#sidebar ul {
+
+    padding: 5%;
+
+    list-style: none;
+
+}
+
+#sidebar li {
+
+    padding-bottom: 100%;
+    /* min-width: 100%; */
+    /* text-align: center; */
+    list-style: none;
+
+}
+
+#sidebar a {
+
+    color: #fff;
+    text-decoration: none;
+
+    font-size: 25px;
+
+}
+
+.blogs {
+    margin-left: 18%;
+    min-height: 33%;
+    /* border: solid; */
+    /* Temp */
+}
+
+#main-footer {
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    height: 4rem;
+
+    background-color: #354f52;
+}
